@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.appointmentservice.PatientRetryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-06T02:38:57.099Z" hostname="QUANGLIGHT" time="1.605">
+  <properties/>
+  <testcase name="testRetryFailsAfterMaxAttemptsAndTriggersFallback()" classname="com.example.appointmentservice.PatientRetryTest" time="1.069"/>
+  <testcase name="testRetrySuccessOnSecondAttempt()" classname="com.example.appointmentservice.PatientRetryTest" time="0.525"/>
+  <system-out><![CDATA[2026-10-06T09:38:57.101+07:00  INFO 15408 --- [appointment-service] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.appointmentservice.PatientRetryTest]: PatientRetryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-06T09:38:57.105+07:00  INFO 15408 --- [appointment-service] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.appointmentservice.AppointmentServiceApplication for test class com.example.appointmentservice.PatientRetryTest
+2026-10-06T09:38:57.125+07:00 DEBUG 15408 --- [appointment-service] [    Test worker] i.g.r.s.retry.configure.RetryAspect      : Created or retrieved retry 'patientRetry' with max attempts rate '3'  for method: 'com.example.appointmentservice.client.PatientClient#getPatientById'
+2026-10-06T09:38:57.129+07:00  INFO 15408 --- [appointment-service] [    Test worker] c.e.a.client.PatientClient               : [PatientClient] Calling patient-service for patientId: 1
+2026-10-06T09:38:57.638+07:00  INFO 15408 --- [appointment-service] [    Test worker] c.e.a.client.PatientClient               : [PatientClient] Calling patient-service for patientId: 1
+2026-10-06T09:38:58.154+07:00  INFO 15408 --- [appointment-service] [    Test worker] c.e.a.client.PatientClient               : [PatientClient] Calling patient-service for patientId: 1
+2026-10-06T09:38:58.158+07:00 ERROR 15408 --- [appointment-service] [    Test worker] c.e.a.client.PatientClient               : [PatientClient Fallback] Failed to fetch patient with ID 1 after retries. Cause: Transient network error
+2026-10-06T09:38:58.189+07:00 DEBUG 15408 --- [appointment-service] [    Test worker] i.g.r.s.retry.configure.RetryAspect      : Created or retrieved retry 'patientRetry' with max attempts rate '3'  for method: 'com.example.appointmentservice.client.PatientClient#getPatientById'
+2026-10-06T09:38:58.189+07:00  INFO 15408 --- [appointment-service] [    Test worker] c.e.a.client.PatientClient               : [PatientClient] Calling patient-service for patientId: 1
+2026-10-06T09:38:58.695+07:00  INFO 15408 --- [appointment-service] [    Test worker] c.e.a.client.PatientClient               : [PatientClient] Calling patient-service for patientId: 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

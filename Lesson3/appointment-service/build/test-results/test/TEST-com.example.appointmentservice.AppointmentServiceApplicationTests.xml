@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.appointmentservice.AppointmentServiceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-06T02:29:12.713Z" hostname="QUANGLIGHT" time="8.155">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.appointmentservice.AppointmentServiceApplicationTests" time="0.441"/>
+  <system-out><![CDATA[09:29:12.867 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.appointmentservice.AppointmentServiceApplicationTests]: AppointmentServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:29:12.996 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.appointmentservice.AppointmentServiceApplication for test class com.example.appointmentservice.AppointmentServiceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2026-10-06T09:29:13.625+07:00  INFO 22148 --- [appointment-service] [    Test worker] c.e.a.AppointmentServiceApplicationTests : Starting AppointmentServiceApplicationTests using Java 17.0.12 with PID 22148 (started by nhatq in D:\Java_microservice\Session8\Lesson3\appointment-service)
+2026-10-06T09:29:13.627+07:00  INFO 22148 --- [appointment-service] [    Test worker] c.e.a.AppointmentServiceApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-10-06T09:29:14.288+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-06T09:29:14.289+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-06T09:29:14.298+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-06T09:29:14.298+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-06T09:29:14.308+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-06T09:29:14.308+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-06T09:29:14.318+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-06T09:29:14.319+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-06T09:29:14.326+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-06T09:29:14.327+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-06T09:29:14.337+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-06T09:29:14.337+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-06T09:29:14.346+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-06T09:29:14.347+07:00 DEBUG 22148 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-06T09:29:14.445+07:00  INFO 22148 --- [appointment-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-06T09:29:14.605+07:00  INFO 22148 --- [appointment-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interface.
+2026-10-06T09:29:14.969+07:00  INFO 22148 --- [appointment-service] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c0d42984-3875-370d-8c7a-b8b7273a85c9
+2026-10-06T09:29:15.767+07:00  INFO 22148 --- [appointment-service] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-06T09:29:15.871+07:00  INFO 22148 --- [appointment-service] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2026-10-06T09:29:15.928+07:00  INFO 22148 --- [appointment-service] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-06T09:29:16.360+07:00  INFO 22148 --- [appointment-service] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-06T09:29:16.408+07:00  INFO 22148 --- [appointment-service] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-06T09:29:16.608+07:00  INFO 22148 --- [appointment-service] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2026-10-06T09:29:16.610+07:00  INFO 22148 --- [appointment-service] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-06T09:29:16.637+07:00  WARN 22148 --- [appointment-service] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-06T09:29:16.661+07:00  INFO 22148 --- [appointment-service] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-06T09:29:17.562+07:00  INFO 22148 --- [appointment-service] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-06T09:29:17.595+07:00  INFO 22148 --- [appointment-service] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-06T09:29:18.786+07:00  WARN 22148 --- [appointment-service] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-06T09:29:20.243+07:00  INFO 22148 --- [appointment-service] [    Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-10-06T09:29:20.355+07:00  WARN 22148 --- [appointment-service] [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-06T09:29:20.404+07:00  INFO 22148 --- [appointment-service] [    Test worker] c.e.a.AppointmentServiceApplicationTests : Started AppointmentServiceApplicationTests in 7.127 seconds (process running for 8.472)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

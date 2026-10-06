@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - com.example.appointmentservice.DoctorCircuitBreakerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<div class="breadcrumbs">
+<a class="breadcrumb" href="../index.html">all</a> &gt; 
+<span class="breadcrumb">com.example.appointmentservice.DoctorCircuitBreakerTest</span>
+</div>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a class="successGroup" href="#">Gradle Test Run :test</a>
+</li>
+</ul>
+<div class="tab">
+<h2>Gradle Test Run :test</h2>
+<h1>DoctorCircuitBreakerTest</h1>
+<div class="tab-container">
+<ul class="tabLinks">
+<li>
+<a class="" href="#">summary</a>
+</li>
+<li>
+<a class="" href="#">standard output</a>
+</li>
+</ul>
+<div class="tab">
+<h2>summary</h2>
+<div>
+<div class="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox">
+<div class="counter">0</div>
+<p>skipped</p>
+</div>
+</td>
+<td>
+<div class="infoBox duration">
+<div class="counter">4.435s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<table class="test-results sortable">
+<thead>
+<tr>
+<th>Child</th>
+<th hidden="">Name</th>
+<th data-sort-default="desc">Tests</th>
+<th data-sort-default="desc">Failures</th>
+<th data-sort-default="desc">Skipped</th>
+<th data-sort-default="desc">Duration</th>
+<th>Success rate</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="success">
+<a href="testCircuitBreakerTransitionsFromClosedToOpenAfter5Failures().html">testCircuitBreakerTransitionsFromClosedToOpenAfter5Failures()</a>
+</td>
+<td class="path" hidden="">testCircuitBreakerTransitionsFromClosedToOpenAfter5Failures()</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td data-sort-value="168">0.168s</td>
+<td class="success" data-sort-value="100">100%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="tab">
+<h2>standard output</h2>
+<span class="code">
+<pre id="root-0-test-stdout-com.example.appointmentservice.DoctorCircuitBreakerTest">2026-10-05T22:27:55.118+07:00  INFO 396 --- [appointment-service] [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.appointmentservice.DoctorCircuitBreakerTest]: DoctorCircuitBreakerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-10-05T22:27:55.127+07:00  INFO 396 --- [appointment-service] [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.appointmentservice.AppointmentServiceApplication for test class com.example.appointmentservice.DoctorCircuitBreakerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.1)
+
+2026-10-05T22:27:55.272+07:00  INFO 396 --- [appointment-service] [    Test worker] c.e.a.DoctorCircuitBreakerTest           : Starting DoctorCircuitBreakerTest using Java 17.0.12 with PID 396 (started by nhatq in D:\Java_microservice\Session8\Lesson1\appointment-service)
+2026-10-05T22:27:55.272+07:00  INFO 396 --- [appointment-service] [    Test worker] c.e.a.DoctorCircuitBreakerTest           : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2026-10-05T22:27:55.531+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-05T22:27:55.532+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-05T22:27:55.535+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-05T22:27:55.536+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-05T22:27:55.542+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-05T22:27:55.543+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-05T22:27:55.548+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-05T22:27:55.548+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-05T22:27:55.553+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-05T22:27:55.555+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-05T22:27:55.560+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-05T22:27:55.561+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-05T22:27:55.565+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.RxJava2OnClasspathCondition    : RxJava2 related Aspect extensions are not activated, because RxJava2 is not on the classpath.
+2026-10-05T22:27:55.566+07:00 DEBUG 396 --- [appointment-service] [    Test worker] i.g.r.s.u.ReactorOnClasspathCondition    : Reactor related Aspect extensions are not activated because Resilience4j Reactor module is not on the classpath.
+2026-10-05T22:27:55.596+07:00  INFO 396 --- [appointment-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-05T22:27:55.613+07:00  INFO 396 --- [appointment-service] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interface.
+2026-10-05T22:27:55.693+07:00  INFO 396 --- [appointment-service] [    Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2ae5729a-7685-3341-9f82-58bfaf4265ea
+2026-10-05T22:27:56.582+07:00  INFO 396 --- [appointment-service] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-10-05T22:27:56.592+07:00  INFO 396 --- [appointment-service] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-10-05T22:27:56.631+07:00  INFO 396 --- [appointment-service] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-05T22:27:56.633+07:00  INFO 396 --- [appointment-service] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-10-05T22:27:56.636+07:00  INFO 396 --- [appointment-service] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+2026-10-05T22:27:56.637+07:00  INFO 396 --- [appointment-service] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-10-05T22:27:56.638+07:00  WARN 396 --- [appointment-service] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-05T22:27:56.639+07:00  INFO 396 --- [appointment-service] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-05T22:27:56.724+07:00  INFO 396 --- [appointment-service] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-05T22:27:56.732+07:00  INFO 396 --- [appointment-service] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-05T22:27:57.574+07:00  WARN 396 --- [appointment-service] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-05T22:27:59.137+07:00  INFO 396 --- [appointment-service] [    Test worker] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2026-10-05T22:27:59.287+07:00  WARN 396 --- [appointment-service] [    Test worker] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-10-05T22:27:59.372+07:00  INFO 396 --- [appointment-service] [    Test worker] c.e.a.DoctorCircuitBreakerTest           : Started DoctorCircuitBreakerTest in 4.24 seconds (process running for 14.653)
+</pre>
+<button class="clipboard-copy-btn" aria-label="Copy to clipboard" data-copy-element-id="root-0-test-stdout-com.example.appointmentservice.DoctorCircuitBreakerTest">Copy</button>
+</span>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="https://www.gradle.org">Gradle 9.7.1</a> at Oct 5, 2026, 10:27:59 PM</p>
+</div>
+</div>
+</body>
+</html>
